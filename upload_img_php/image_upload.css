@@ -1,0 +1,56 @@
+*{
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(161, 236, 223);
+    text-transform: capitalize;
+}
+
+div.myform{
+    background-color: rgb(208, 207, 216);
+    padding: 40px;
+    border-radius: 5px;
+    width: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+div.myform div.input-field label{
+    display: block;
+    font-weight: 550;
+}
+
+div.myform div.input-field input{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 8px;
+    outline: none;
+    margin-bottom: 20px;
+    margin-top: 4px;
+}
+
+div.myform div.submit-btn{
+    text-align: center;
+}
+
+div.myform div.submit-btn button{
+    padding: 5px 20px;
+    font-weight: 550;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    margin-top: 10px;
+}
